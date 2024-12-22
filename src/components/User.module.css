@@ -1,0 +1,85 @@
+.bodyCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.userCard {
+  border: 2px solid #000;
+  background-color: #eee;
+  border-radius: 10px;
+  max-width: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.userCardHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.userCardHeader img {
+    max-width: 80px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #2a2a2a;
+}
+
+.userName {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.userTextInfo {
+    color: #818181;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.userCardFooter {
+    background-color: #ddd;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin: 0px;
+    border-radius: 0px 0px 10px 10px;
+    border-top: 2px solid #aaa;
+    padding-inline-start: 0px;
+}
+
+.userCardFooter li {
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 2px solid #aaa;
+    max-width: 100px;
+    width: 100%;
+}
+
+.userCardFooter li:last-child {
+    border-right: none;
+}
+
+.total {
+    font-weight: 700;
+    margin-top: 5%;
+}
